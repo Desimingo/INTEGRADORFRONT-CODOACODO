@@ -1,0 +1,41 @@
+.formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} 
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div{
+    width: 100%;
+    display: flex;
+}
+
+form>div>input{
+    padding: 4px;
+    width: 100%;
+}
+
+.pequenioTexto{
+    box-sizing: border-box;
+    ´padding: 4px;
+     width: 100%;
+}
+
+form>textarea{
+    box-sizing: border-box;
+   ´padding: 4px;
+    width: 100%;
+}
+ 
+form>button {
+width: 100%;
+
+color: white;
+background-color: green;
+border: none;
+}
